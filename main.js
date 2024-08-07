@@ -66,3 +66,27 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
 });
+
+
+
+
+
+
+function openModal(element) {
+  const modal = document.getElementById('modal');
+  const modalImg = document.getElementById('modal-img');
+  modal.style.display = "block";
+  modalImg.src = element.src;
+}
+
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.style.display = "none";
+}
+
+// Añadir evento click a todas las imágenes del slider
+document.querySelectorAll('.store__card img').forEach(img => {
+  img.addEventListener('click', function() {
+    openModal(this);
+  });
+});
