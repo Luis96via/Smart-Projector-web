@@ -193,12 +193,23 @@ img.header-bg {
   margin-bottom: 4rem;
   display: grid;
   gap: 4rem;
+
+
 }
 
 .product__image img {
+
+    
+  
   /*max-width: 350px;*/
   margin-inline: auto;
   /*transform: rotate(-15deg);*/
+
+
+
+
+
+
 }
 
 .product__content {
@@ -549,3 +560,4 @@ img.header-bg {
 }
 
 */
+

@@ -1,0 +1,85 @@
+.comprarBtnn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white; /* Fondo blanco */
+    color: black; /* Letras negras */
+    border: 1px solid black; /* Borde negro para mejor visibilidad */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.comprarBtnn:hover {
+    background-color: black; /* Fondo negro al pasar el cursor */
+    color: white; /* Letras blancas al pasar el cursor */
+}
+
+.modal-WS-PREGUNTAS {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content-WS-PREGUNTAS {
+    background-color: #cfd7cc;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close-ws-PREGUNTAS {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-ws-PREGUNTAS:hover,
+.close-ws-PREGUNTAS:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whatsapp-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-link:hover {
+    background-color: #1DA851;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-content-WS-PREGUNTAS {
+        background-color: #cfd7cc;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 47%;
+    }
+}

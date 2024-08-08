@@ -90,3 +90,4 @@ document.querySelectorAll('.store__card img').forEach(img => {
     openModal(this);
   });
 });
+
