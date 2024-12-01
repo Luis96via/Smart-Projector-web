@@ -31,7 +31,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#product">Product</a></li>
         <li><a href="#store">Store</a></li>
-        <li><button class="btn">Buy Now</button></li>
+        <li><button class="btn" onclick="openUniqueModal('Ofertar')">Ofertar</button></li>
       </ul>
     </nav>
 
@@ -40,8 +40,8 @@
         <img src="assets/header.png" alt="header" />
         <img src="assets/header-bg.png" alt="header_bg" class="header-bg" />
         <div class="header__image__content">
-          <h4>Price: $95.00</h4>
-          <button class="btn">Add to cart</button>
+          <h4>Precio: $80.00</h4>
+          <button class="btn" onclick="openUniqueModal('Agregar al Carrito')">Agregar al Carrito</button>
         </div>
       </div>
       <div class="header__content">
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="product__btn">
-          <button class="btn">Add to cart</button>
+          <button class="btn" onclick="openUniqueModal('Haz tu Pregunta')">Haz tu Pregunta</button>
         </div>
       </div>
     </section>
@@ -199,6 +199,19 @@
           </li>
         </ul>
       </div>
+
+<!-- Estructura del Modal boton de Compra o Pregunta-->
+<div id="unique-modal" class="unique-modal">
+  <div class="unique-modal-content">
+    <span class="unique-close" onclick="closeUniqueModal()">&times;</span>
+    <img src="./assets/whatsapp_logo.png" class="unique-whatsapp-logo" alt="">
+    <h2 class="unique-vendedor-estilos">Vendedor Oficial</h2>
+    <p class="unique-nombre-de-vendedor-estilos">Luis Viña 🏆</p>
+    <button class="unique-btn unique-boton-modal" onclick="hacerPedidoUnique()">¡Haz tu pedido!</button>
+  </div>
+</div>
+
+      
       <div class="footer__bar">
         Copyright © 2024 Web Design Mastery. All rights reserved
       </div>
