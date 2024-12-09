@@ -651,3 +651,9 @@ input[type="number"] {
 }
 
 */
+
+@media (max-width: 768px) {
+  .unique-modal-content {
+    margin-top: 57%;
+  }
+}
