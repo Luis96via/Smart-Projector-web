@@ -451,7 +451,7 @@ img.header-bg {
   .header__image__content {
     position: absolute;
     right: 0;
-    bottom: 2rem;
+    bottom: 0.3rem;
   }
 
   .header__content {
@@ -652,8 +652,18 @@ input[type="number"] {
 
 */
 
+.img-header-product {
+  margin-top: -7%;
+}
+
+ 
 @media (max-width: 768px) {
   .unique-modal-content {
     margin-top: 57%;
   }
+ 
+  .img-header-product {
+    margin-top: 0%;
+  }
+
 }

@@ -10,7 +10,7 @@ JavaScript
 Bibliotecas externas: Remixicon, Swiper, ScrollReveal
 
 Enfoque del Proyecto:
-El proyecto está enfocado en crear una landing page para promocionar y vender un proyector inteligente llamado HY300 Smart Projector. La página está diseñada para mostrar las características del producto, facilitar la compra y permitir la interacción con los clientes.
+El proyecto está enfocado en crear una landing page para promocionar y vender un proyector inteligente llamado HY320 Smart Projector. La página está diseñada para mostrar las características del producto, facilitar la compra y permitir la interacción con los clientes.
 
 
 Estructura y Funcionalidades:
@@ -68,7 +68,7 @@ d. Integración con WhatsApp:
 
 Los botones de acción están vinculados directamente con un número de WhatsApp para facilitar la comunicación con el vendedor.
 
-En conclusión, el proyecto Smart-Projector-web es una landing page bien estructurada y diseñada para promocionar el proyector HY300. Utiliza tecnologías modernas de desarrollo web para crear una experiencia de usuario atractiva y funcional, con un enfoque claro en la presentación del producto y la facilitación del proceso de compra.
+En conclusión, el proyecto Smart-Projector-web es una landing page bien estructurada y diseñada para promocionar el proyector HY320. Utiliza tecnologías modernas de desarrollo web para crear una experiencia de usuario atractiva y funcional, con un enfoque claro en la presentación del producto y la facilitación del proceso de compra.
 
 
 

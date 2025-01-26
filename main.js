@@ -158,7 +158,7 @@ function hacerPedidoUnique() {
 // Añade la función después de las funciones existentes en main.js
 function openWhatsApp() {
   const numeroTelefono = "584125005026";
-  const mensaje = "Hola Luis, estoy interesado en ordenar un 4K UHD Resolution: The HY300 Smart Projector. Me gustaría saber cuál es el siguiente paso.";
+  const mensaje = "Hola Luis, estoy interesado en ordenar un 4K UHD Resolution: The HY320 Smart Projector. Me gustaría saber cuál es el siguiente paso.";
   const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
 }
@@ -167,7 +167,7 @@ function openWhatsApp() {
 function agregarAlCarrito() {
   const numeroTelefono = "584125005026";
   const cantidad = document.getElementById('cantidad').value || 1; // Obtiene la cantidad, por defecto 1
-  const mensaje = `Hola Luis, estoy interesado en ordenar ${cantidad} unidades del 4K UHD Resolution: The HY300 Smart Projector. Me gustaría saber cuál es el siguiente paso.`;
+  const mensaje = `Hola Luis, estoy interesado en ordenar ${cantidad} unidades del 4K UHD Resolution: The HY320 Smart Projector. Me gustaría saber cuál es el siguiente paso.`;
   const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
 }
